@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Learning Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to PayPal</h1>
+        <h2>Learn HTML and CSS with this Sample Project</h2>
+    </header>
+
+    <main>
+        <section>
+            <h2>List Example</h2>
+            <ol>
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+            </ol>
+            <ul>
+                <li style="list-style-type: square;">1</li>
+                <li style="list-style-type: square;">2</li>
+                <li style="list-style-type: square;">3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Table Example</h2>
+            <table border="1">
+                <tr>
+                    <td>Header 1</td>
+                    <td>Header 2</td>
+                </tr>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td>Row 1, Cell 2</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Row 2</td>
+                </tr> 
+                <!-- Add row and use colspan with 2 for the td below -->
+
+            </table>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation Example</h2>
+            <!-- Add hyperlinks for SamplePage1 and SamplePage2 to page1.html and page2.html -->
+            <p>
+                Go back to <a href="./page1.html">SamplePage1</a>.
+            </p>
+            <p>
+                Go back to <a href="./page2.html">SamplePage2</a>.
+            </p>
+            <p>Visit SamplePage1 or SamplePage2.</p>
+
+        </section>
+
+        <section>
+            <h2>Form Example</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="number" id="phone" name="phone">
+                <!-- Add phone number input field and label here -->
+
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HTML and CSS Learning Project</p>
+    </footer>
+</body>
+
+</html>

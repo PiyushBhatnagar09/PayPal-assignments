@@ -1,0 +1,86 @@
+/* General reset and global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body section{
+  margin:20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Aside styles */
+aside {
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: 25%;
+  float: right;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Form styles */
+form {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Enhanced Task: Input Submit Button styles */
+/* Uncomment the following properties to enable the button styling */
+input[type="submit"] {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; 
+ 
+}
+
+input[type="submit"]:hover {
+  
+  background-color: #45a049; 
+ 
+}
